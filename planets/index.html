@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../assets/millennium-falcon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./src/main.js" type="module"></script>
+    <script src="./src/pages.js" type="module"></script>
+    <script src="./src/cards.js" type="module"></script>
+    <script src="./src/utils.js" type="module"></script>
+    <script
+      src="https://kit.fontawesome.com/16ca669245.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Star Wars - Planets</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="../assets/star-wars-logo.png"
+        alt="Logo do Star Wars"
+        class="header-logo"
+      />
+      <nav>
+        <ul>
+          <a href="../characters/index.html" target="_blank"
+            ><li>Characters</li></a
+          >
+          <a href="./index.html"><li>Planets</li></a>
+          <a href="../starships/index.html" target="_blank"
+            ><li>Starships</li></a
+          >
+        </ul>
+      </nav>
+      <div class="social-media-container">
+        <a href="https://www.instagram.com/marceloalf_/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <!-- Para saber qual nome colocar na classe, basta pesquisar pelo ícone desejado no site https://fontawesome.com/ -->
+        <a
+          href="https://www.facebook.com/marcelo.alfonsodesouza"
+          target="_blank"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="https://github.com/marceloalfonso" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://br.linkedin.com/" target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+      </div>
+    </header>
+    <div class="main-container">
+      <h1>Conheca todos os planetas de Star Wars</h1>
+      <div id="content-container" class="content-container"></div>
+      <div id="modal-container" class="modal-container">
+        <div id="modal-content" class="modal-content"></div>
+      </div>
+      <div class="buttons">
+        <button id="previous-button" disabled>Anterior</button>
+        <button id="next-button" disabled>Próxima</button>
+      </div>
+    </div>
+    <footer>
+      <p class="footer-logo">Star Wars</p>
+      <p>Todos os direitos reservados &copy;</p>
+      <p>Desenvolvido por Marcelo Alfonso</p>
+    </footer>
+  </body>
+</html>
